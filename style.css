@@ -203,7 +203,6 @@ header nav.open .menu .burger {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  min-height: 100vh;
   padding-inline: 40px;
   text-align: center;
   display: -webkit-box;
@@ -291,7 +290,6 @@ header nav.open .menu .burger {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  min-height: 100vh;
   padding-inline: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -483,13 +481,16 @@ footer .copyright {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    width: 50%;
+    width: 600px;
     padding-left: 100px;
     margin-bottom: 100px;
   }
   .about {
     margin-top: -10%;
     padding-inline: 100px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
   .about .about-header {
     text-align: start;
@@ -532,6 +533,9 @@ footer .copyright {
   }
   .articles {
     padding-inline: 100px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
   .articles .articles-header {
     width: 100%;

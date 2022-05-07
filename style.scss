@@ -167,7 +167,6 @@ header{
 .about{
     width: 100%;
     height: max-content;
-    min-height: 100vh;
     padding-inline: 40px;
     text-align: center;
     display: flex;
@@ -215,7 +214,6 @@ header{
 .articles{
     width: 100%;
     height: max-content;
-    min-height: 100vh;
     padding-inline: 20px;
     display: flex;
     flex-direction: column;
@@ -353,7 +351,7 @@ footer{
             display: flex;
             text-align: start;
             align-items: flex-start;
-            width: 50%;
+            width: 600px;
             padding-left: 100px;
             margin-bottom: 100px;
         }
@@ -361,6 +359,7 @@ footer{
     .about{
         margin-top: -10%;
         padding-inline: 100px;
+        height: max-content;
         .about-header{
             text-align: start;
             align-items: flex-start;
@@ -385,6 +384,7 @@ footer{
     }
     .articles{
         padding-inline: 100px;
+        height: max-content;
         .articles-header{
             width: 100%;
             text-align: start;
